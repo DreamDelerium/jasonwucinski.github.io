@@ -8,17 +8,17 @@ $(document).ready(
 //the redirect url
 function gscGetOAuthAppId()
 {
-    var clientID = "757476412337-o2e3ss2k1jirl3jjb699o7em6p1qa0ut.apps.googleusercontent.com";
+    //project id : sustained-vial-151202
+    var clientID = "749909928472-sbfk8s39lqngdb1tis6qo4g0a032mjck.apps.googleusercontent.com";
     return clientID; 
 }
+//GoogleDataConnection
+//probable-life-151202
 
 //Expected redirect url for OAuth connections, this value is where the local HTTP server should be hosted at
 //for the OAuth redirect, otherwise the OAuth connection will fail. To change this value please create your
 //own OAuth App ID that uses a different base URL to host the connector.
-//var EXPECTED_REDIRECT_URL = "http://tableau.github.io/webdataconnector/Examples/GoogleSheetsConnector.html";
 var EXPECTED_REDIRECT_URL = "https://jasonwucinski.github.io/Examples/GoogleSheetsConnector.html";
-
-
 
 var MIN_SECONDS_REMAINING_FOR_ACCESS_TOKEN = 60;
 
